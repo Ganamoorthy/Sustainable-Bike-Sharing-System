@@ -1,4 +1,6 @@
-# 🚲 Sustainable Bike Sharing System with Energy Harvesting, Transfer and Smart Docking
+# 🚲 IoT-Based Smart Bike Sharing System
+
+*Solar-Assisted Charging & Smart Docking — with Energy Harvesting/Transfer as Future Work*
 
 <p align="center">
 
@@ -22,7 +24,7 @@
 
 ## 📌 Project Overview
 
-The **Sustainable Bike Sharing System with Energy Harvesting, Transfer and Smart Docking** is a one-year final-year research project focused on developing a **low-cost, IoT-enabled bicycle-sharing system** for universities, campuses and small urban environments.
+The **IoT-Based Smart Bike Sharing System** is a one-year final-year research project focused on developing a **low-cost, IoT-enabled bicycle-sharing system** for universities, campuses and small urban environments.
 
 The system integrates **GPS tracking, IMU sensing, 4G LTE communication, MQTT, NFC authentication, smart docking, battery monitoring, solar charging, mobile application and cloud-based IoT services** into a single platform.
 
@@ -70,6 +72,39 @@ The main objective is to design and develop a **low-cost smart bicycle-sharing p
 | ☁️ IoT Backend        | Receives and manages system data                     |
 | 🧩 Custom PCB         | Integrates electronic components                     |
 | 🖨️ 3D Printing       | Supports mechanical integration and enclosure design |
+
+---
+
+# 🚀 Getting Started
+
+## Requirements
+
+* Arduino IDE 2.x (or PlatformIO)
+* ESP32 board package installed via the Arduino Boards Manager
+* USB-to-serial driver for your ESP32 dev board (CP2102 or CH340, depending on the board)
+
+## Required Libraries
+
+Install via Library Manager or PlatformIO's `lib_deps`:
+
+* **TinyGPSPlus** — GPS NMEA parsing
+* **PubSubClient** — MQTT communication
+* **ArduinoJson** — payload formatting
+* **Preferences** — bundled with the ESP32 core, used for persistent sequence numbers
+
+## Flashing the Firmware
+
+1. Clone the repository: `git clone <repo-url>`
+2. Open `firmware/tracking/sketch_sep3a.ino` in Arduino IDE
+3. Select board **ESP32 Dev Module** and the correct COM port
+4. Update `config.h` with your MQTT broker address, APN, and Wi-Fi/cellular credentials
+5. Upload the sketch
+6. Open the Serial Monitor at 115200 baud to confirm GPS fix, MQTT connection, and battery readings
+
+## Notes
+
+* The docking firmware (`firmware/docking/`) is a separate sketch, flashed to its own ESP32
+* Connect the GPS and cellular antennas before powering on — otherwise the modules may fail to register
 
 ---
 
@@ -148,6 +183,8 @@ The tracking subsystem is responsible for monitoring the bicycle's **location, m
 * 3S BMS / HW-288
 * LM2596 buck converters
 * Custom PCB
+
+> **Note:** NEO-6M/NEO-8M, ICM-20948/MPU9250 and Air780E/SIM800L were each evaluated as alternatives during development. See the Budget section for which components are costed into the final prototype versus tested as options.
 
 ---
 
@@ -810,7 +847,7 @@ Testing was carried out at both subsystem and complete-system levels.
 ## B. Bike Locking / Docking System
 
 | Component                        |   Qty | Unit Price (LKR) |    Total (LKR) |
-| -------------------------------- | ----: | ---------------: | -------------: |
+| --------------------------------- | ----: | ---------------: | -------------: |
 | ESP32 Development Board 30-pin   |     2 |            1,260 |          2,520 |
 | Solenoid Lock                    |     4 |           1,450* |          5,800 |
 | Relay / Driver Module            |     4 |              220 |            880 |
@@ -823,14 +860,14 @@ Testing was carried out at both subsystem and complete-system levels.
 | NFC Card                         |     2 |              50* |            100 |
 | Welding Work / Components        | 1 lot |            9,000 |          9,000 |
 | Linear Actuator – Testing        |     1 |            3,500 |          3,500 |
-| **Subtotal**                     |       |                  | **LKR 32,800** |
+| **Subtotal**                     |       |                  | **LKR 27,500** |
 
 ---
 
 ## C. Solar Charging System
 
 | Component                       | Qty | Unit Price (LKR) |   Total (LKR) |
-| ------------------------------- | --: | ---------------: | ------------: |
+| -------------------------------- | --: | ---------------: | ------------: |
 | 3S BMS / HW-288                 |   1 |             500* |           500 |
 | Fuse                            |   1 |              40* |            40 |
 | LM2596 Buck Converter           |   1 |             220* |           220 |
@@ -842,7 +879,7 @@ Testing was carried out at both subsystem and complete-system levels.
 ## D. 3D Printing / Enclosure
 
 | Component                                 |   Qty |   Total (LKR) |
-| ----------------------------------------- | ----: | ------------: |
+| ------------------------------------------ | ----: | ------------: |
 | 3D Printing Filament / Enclosure Material | 1 lot |         5,500 |
 | **Subtotal**                              |       | **LKR 5,500** |
 
@@ -851,12 +888,12 @@ Testing was carried out at both subsystem and complete-system levels.
 ## 💵 Final Budget Summary
 
 | Section                       |           Cost |
-| ----------------------------- | -------------: |
+| ------------------------------ | -------------: |
 | Bike Tracking System          |     LKR 27,567 |
-| Bike Locking / Docking System |     LKR 32,800 |
+| Bike Locking / Docking System |     LKR 27,500 |
 | Solar Charging System         |      LKR 1,460 |
 | 3D Printing / Enclosure       |      LKR 5,500 |
-| **Overall Total**             | **LKR 67,327** |
+| **Overall Total**             | **LKR 62,027** |
 
 `*` Approximate/local prototype cost.
 
@@ -1074,15 +1111,13 @@ The project also demonstrates an advanced embedded firmware architecture using *
 
 ### Research Title
 
-> **Sustainable Bike Sharing System with Energy Harvesting, Transfer and Smart Docking**
+> **IoT-Based Smart Bike Sharing System**
 
 ---
 
 # 📜 License
 
-This repository contains academic research and prototype implementation developed as part of a university final-year research project.
-
-The appropriate license can be selected according to the requirements of the research team and university.
+This repository is released under the [MIT License](LICENSE). Feel free to use, modify and build on this work for academic or research purposes, with attribution.
 
 ---
 
@@ -1101,7 +1136,7 @@ We would like to acknowledge the support and guidance provided by:
 
 # 🚲 Project Summary
 
-The **Sustainable Bike Sharing System** is a low-cost IoT-based bicycle-sharing research platform integrating:
+The **IoT-Based Smart Bike Sharing System** is a low-cost IoT-based bicycle-sharing research platform integrating:
 
 **GPS Tracking • IMU Sensing • 4G LTE • MQTT • NFC Authentication • Smart Docking • Battery Monitoring • Solar Charging • Mobile Application • IoT Backend**
 
