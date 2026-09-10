@@ -1,0 +1,296 @@
+{
+  "uuid": "e38cd3ce48cdd559d1fa82a089d8f0f5",
+  "path": "Offline/Bike sharing system final one with 30 pin esp32",
+  "name": "Bike sharing system final one with 30 pin esp32",
+  "content": "",
+  "created_at": "2026-04-06 17:12:08",
+  "updated_at": "2026-04-09 11:30:38",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "f57f257b53bf3ce9ce94cd9ee4b2f419",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "96bf297437a74597bc58c3a6f8e75bae": 1,
+        "e2cbaf02f9f047159309985bd971757d": 1,
+        "bf4353c924474ccbbe75339a2e6cac31": 1,
+        "37abddda9ce64201846aa3fbe4e867eb": 1,
+        "e4faeb0f5e8140208709a603121bc571": 2,
+        "17333c3c358748888d8a80c6923b8d4d": 3,
+        "60912f8f3f5448d0b68facb18b703d8b": 2
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "GY-GPS6MV2GPSModul",
+          1,
+          "GY-GPS6MV2GPSMODUL",
+          "B1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "100nF capacitor",
+          2,
+          "CAPACITOR, 100UF 2.54MM PIN CAPACITOR",
+          "CGPS,CIMC",
+          {
+            "Manufacturer Part": "KM476M016D11RR0VH2FP0",
+            "Manufacturer": "CX(承兴)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C22320"
+          }
+        ],
+        [
+          "1000µF capacitor",
+          1,
+          "CAPACITOR, 100UF 2.54MM PIN CAPACITOR",
+          "CSIM",
+          {
+            "Manufacturer Part": "KM476M016D11RR0VH2FP0",
+            "Manufacturer": "CX(承兴)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C22320"
+          }
+        ],
+        [
+          "BATTERY sim & ESP32",
+          1,
+          "2PIN-CON-BATT [PCB]",
+          "ESP32",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "BATTERY gps",
+          1,
+          "2PIN-CON-BATT [PCB]",
+          "GPS",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "4.7kΩ",
+          2,
+          "RESISTER",
+          "RSCL,RSDA",
+          {
+            "Manufacturer Part": "Resister",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "DOIT ESP32 DEVKIT ESP-WROOM-32 CP2102 WIFI BLUETOOTH ESP8266 COPY",
+          1,
+          "DOIT-ESP32-DEVKIT-V1",
+          "U2",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "Ali Express",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "ICM20948",
+          1,
+          "ICM20948",
+          "U3",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "SIM800L",
+          1,
+          "SIM800L",
+          "U4",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ]
+      ],
+      "updateTime": 1775711296,
+      "createTime": 1775475728,
+      "histories": [],
+      "created_at": "2026-04-06 17:12:08",
+      "updated_at": "2026-04-09 10:38:16"
+    },
+    {
+      "uuid": "5b6c10760e0e710c84b48c1d9c7df3e6",
+      "puuid": "e38cd3ce48cdd559d1fa82a089d8f0f5",
+      "title": "PCB_Bike sharing system final one with 30 pin esp32",
+      "filename": "PCB_Bike sharing system final one with 30 pin esp32.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "647d864abd094d41923210b009b5f849": 1,
+        "16bd69fa9eec4ff198a7e40062a07ffa": 3,
+        "9d4a214b066c4bc6bf918a56aab1e433": 2,
+        "82b682598fa24a26af8d3ec7b1f9903d": 1,
+        "eea24b7bb2bb41faa21d67403dd1c785": 1,
+        "41a25f8165934125b6d53dd4a67addda": 1,
+        "60f141e2afe64f539b707cbaa4ef9f2e": 2
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "GY-GPS6MV2GPSModul",
+          1,
+          "GY-GPS6MV2GPSMODUL",
+          "B1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "100nF capacitor",
+          2,
+          "CAPACITOR, 100UF 2.54MM PIN CAPACITOR",
+          "C2,CGPS",
+          {
+            "Manufacturer Part": "KM476M016D11RR0VH2FP0",
+            "Manufacturer": "CX(承兴)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C22320"
+          }
+        ],
+        [
+          "100nF ceremic",
+          1,
+          "CAPACITOR, 100UF 2.54MM PIN CAPACITOR",
+          "CSIM",
+          {
+            "Manufacturer Part": "KM476M016D11RR0VH2FP0",
+            "Manufacturer": "CX(承兴)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C22320"
+          }
+        ],
+        [
+          "BATTERY gps",
+          1,
+          "2PIN-CON-BATT [PCB]",
+          "CON1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "BATTERY sim & ESP32",
+          1,
+          "2PIN-CON-BATT [PCB]",
+          "CON2",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "4.7kΩ",
+          2,
+          "RESISTER",
+          "RSCL,RSDA",
+          {
+            "Manufacturer Part": "Resister",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "DOIT ESP32 DEVKIT ESP-WROOM-32 CP2102 WIFI BLUETOOTH ESP8266 COPY",
+          1,
+          "DOIT-ESP32-DEVKIT-V1",
+          "U2",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "Ali Express",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "ICM20948",
+          1,
+          "ICM20948",
+          "U3",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "SIM800L",
+          1,
+          "SIM800L",
+          "U4",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ]
+      ],
+      "updateTime": 1775714438,
+      "createTime": 1775709768,
+      "histories": [],
+      "created_at": "2026-04-09 10:12:48",
+      "updated_at": "2026-04-09 11:30:38"
+    }
+  ],
+  "sort": [],
+  "title": "Bike sharing system final one with 30 pin esp32",
+  "foldername": "Bike sharing system final one with 30 pin esp32",
+  "schfilename": "Bike sharing system final one with 30 pin esp32.json",
+  "schfilemtime": 1775711296951
+}
