@@ -102,25 +102,25 @@ The main objective is to design and develop a **low-cost smart bicycle-sharing p
                 │                                   │
                 │              ESP32                │
                 │                                   │
-                │   ┌────────┐    ┌────────────┐   │
-                │   │  GPS   │    │    IMU     │   │
-                │   └────────┘    └────────────┘   │
+                │   ┌────────┐    ┌────────────┐    │
+                │   │  GPS   │    │    IMU     │    │
+                │   └────────┘    └────────────┘    │
                 │                                   │
                 │        ┌─────────────────┐        │
                 │        │ Air780E 4G LTE  │        │
                 │        └─────────────────┘        │
                 │                                   │
-                │   ┌──────────┐ ┌──────────────┐  │
-                │   │ Battery  │ │ Solar        │  │
-                │   │ System   │ │ Charging     │  │
-                │   └──────────┘ └──────────────┘  │
+                │   ┌──────────┐ ┌──────────────┐   │
+                │   │ Battery  │ │ Solar        │   │
+                │   │ System   │ │ Charging     │   │
+                │   └──────────┘ └──────────────┘   │
                 └────────────────┬──────────────────┘
                                  │
                                  ▼
                        ┌─────────────────────┐
                        │ Smart Docking Unit  │
                        │                     │
-                       │ NFC Authentication │
+                       │ NFC Authentication  │
                        │ Solenoid Lock       │
                        │ Relay / Driver      │
                        │ Docking Mechanism   │
