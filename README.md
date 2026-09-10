@@ -1,20 +1,20 @@
-# 🚲 Sustainable Bike Sharing System with Smart Tracking and Docking
+# 🚲 Sustainable Bike Sharing System with Energy Harvesting, Transfer and Smart Docking
 
 <p align="center">
 
-**A Low-Cost IoT-Based Bicycle Sharing System for Universities and Small Urban Environments**
+**A Low-Cost IoT-Based Smart Bicycle Sharing System for Universities and Small Urban Environments**
 
 </p>
 
 <p align="center">
 
 ![ESP32](https://img.shields.io/badge/ESP32-Embedded%20System-blue)
-![IoT](https://img.shields.io/badge/IoT-IoT%20Enabled-green)
-![GPS](https://img.shields.io/badge/GPS-Tracking-orange)
-![MQTT](https://img.shields.io/badge/MQTT-Communication-purple)
-![4G LTE](https://img.shields.io/badge/4G-LTE-red)
-![RFID](https://img.shields.io/badge/NFC%2FRFID-Authentication-yellow)
-![Research](https://img.shields.io/badge/Project-Final%20Year%20Research-success)
+![GPS](https://img.shields.io/badge/GPS-Tracking-green)
+![4G LTE](https://img.shields.io/badge/4G%20LTE-Air780E-orange)
+![MQTT](https://img.shields.io/badge/MQTT-IoT-purple)
+![NFC](https://img.shields.io/badge/NFC-Authentication-red)
+![FreeRTOS](https://img.shields.io/badge/FreeRTOS-Multitasking-yellow)
+![Research](https://img.shields.io/badge/Final%20Year-Research-success)
 
 </p>
 
@@ -22,97 +22,58 @@
 
 ## 📌 Project Overview
 
-The **Sustainable Bike Sharing System with Smart Tracking and Docking** is a one-year final-year research project developed as a **low-cost, IoT-enabled bicycle-sharing platform** for universities, campuses and small urban environments.
+The **Sustainable Bike Sharing System with Energy Harvesting, Transfer and Smart Docking** is a one-year final-year research project focused on developing a **low-cost, IoT-enabled bicycle-sharing system** for universities, campuses and small urban environments.
 
-The system combines embedded electronics, GPS tracking, inertial sensing, cellular communication, MQTT, user authentication and smart docking into a single bicycle-sharing platform.
+The system integrates **GPS tracking, IMU sensing, 4G LTE communication, MQTT, NFC authentication, smart docking, battery monitoring, solar charging, mobile application and cloud-based IoT services** into a single platform.
 
-The project focuses on developing a practical and affordable alternative to large-scale commercial bike-sharing infrastructure.
-
-### Main implemented technologies
-
-* 🚲 Smart bicycle sharing
-* 📍 GPS-based bicycle tracking
-* 🧭 IMU-based movement sensing
-* 📡 4G LTE cellular communication
-* 📬 MQTT-based IoT communication
-* 🔐 NFC-based authentication
-* 🅿️ Smart docking
-* 🔒 Solenoid-based locking mechanism
-* 🔋 Rechargeable battery system
-* ☀️ Solar charging subsystem
-* 📱 Mobile application
-* ☁️ IoT/cloud backend
-* 🧩 Custom PCB development
-* 🖨️ 3D-printed mechanical components
+The project focuses on creating a practical and scalable alternative to expensive commercial bicycle-sharing infrastructure.
 
 ---
 
 # 🎯 Research Objective
 
-The main objective of this research is to develop and evaluate a **low-cost smart bicycle-sharing system** that can provide secure bicycle access, real-time tracking and intelligent docking without requiring expensive commercial infrastructure.
+The main objective is to design and develop a **low-cost smart bicycle-sharing platform** capable of:
 
-The research investigates the integration of:
+* Monitoring bicycle location and movement
+* Providing secure user authentication
+* Managing bicycle docking
+* Monitoring battery condition
+* Communicating through cellular networks
+* Sending real-time IoT data to a backend
+* Supporting solar-based charging
+* Providing a foundation for future energy harvesting and transfer
 
-```text
-Embedded Systems
-       +
-GPS Tracking
-       +
-IMU Sensing
-       +
-4G LTE
-       +
-MQTT
-       +
-NFC Authentication
-       +
-Smart Docking
-       +
-Solar Charging
-       +
-Mobile Application
-```
-
-into a unified bicycle-sharing platform.
-
----
-
-# 🌍 Target Application
-
-The proposed system is primarily designed for:
+### Target environments
 
 * Universities
 * University campuses
 * Small cities
 * Private campuses
-* Research institutions
 * Controlled bicycle-sharing environments
 
-The system is particularly suitable for environments where a **low-cost and decentralized bike-sharing solution** is preferred.
+---
+
+# ✨ Main System Features
+
+| Feature               | Description                                          |
+| --------------------- | ---------------------------------------------------- |
+| 📍 GPS Tracking       | Tracks bicycle location using GPS                    |
+| 🧭 IMU Sensing        | Detects movement and provides motion data            |
+| 📡 4G LTE             | Provides remote cellular connectivity                |
+| 📬 MQTT               | Lightweight IoT communication protocol               |
+| 🔐 NFC Authentication | Identifies and authenticates users                   |
+| 🅿️ Smart Docking     | Manages bicycle docking                              |
+| 🔒 Electronic Locking | Solenoid-based locking mechanism                     |
+| 🔋 Battery Monitoring | Monitors battery and individual cell voltages        |
+| ☀️ Solar Charging     | Provides supplementary battery charging              |
+| 📱 Mobile Application | User interface for the bike-sharing system           |
+| ☁️ IoT Backend        | Receives and manages system data                     |
+| 🧩 Custom PCB         | Integrates electronic components                     |
+| 🖨️ 3D Printing       | Supports mechanical integration and enclosure design |
 
 ---
 
-# ✨ Main Features
-
-| Feature                 | Description                                                               |
-| ----------------------- | ------------------------------------------------------------------------- |
-| 📍 GPS Tracking         | Determines the geographic location of the bicycle                         |
-| 🧭 IMU Sensing          | Detects bicycle movement and provides inertial data                       |
-| 📡 4G LTE Communication | Provides cellular connectivity for remote communication                   |
-| 📬 MQTT Communication   | Transfers tracking and system data through an MQTT-based IoT architecture |
-| 🔐 NFC Authentication   | Provides user identification and authentication                           |
-| 🅿️ Smart Docking       | Detects and manages bicycle docking                                       |
-| 🔒 Electronic Locking   | Solenoid-based bicycle locking mechanism                                  |
-| 🔋 Battery System       | Provides portable power for the bicycle electronics                       |
-| ☀️ Solar Charging       | Provides supplementary charging capability                                |
-| 📱 Mobile Application   | Provides the user interface for the bike-sharing system                   |
-| ☁️ IoT Backend          | Receives and manages bicycle/system data                                  |
-| 🧩 Custom PCB           | Provides integrated electronic hardware                                   |
-| 🖨️ 3D-Printed Parts    | Provides customized mechanical structures and enclosures                  |
-
----
-
-# 🏗️ System Architecture
+# 🏗️ Overall System Architecture
 
 ```text
                          ┌─────────────────────┐
@@ -124,57 +85,55 @@ The system is particularly suitable for environments where a **low-cost and dece
                          │ Authentication      │
                          └──────────┬──────────┘
                                     │
-                                    │
                                     ▼
                          ┌─────────────────────┐
-                         │   IoT / MQTT        │
-                         │      Backend        │
+                         │   IoT / Backend     │
                          │                     │
                          │ MQTT Broker         │
-                         │ Database / Server   │
+                         │ Database            │
+                         │ Server              │
                          └──────────┬──────────┘
                                     │
                               MQTT over 4G
                                     │
                                     ▼
-                  ┌────────────────────────────────┐
-                  │       Bicycle Tracking Unit    │
-                  │                                │
-                  │             ESP32              │
-                  │                                │
-                  │   ┌────────┐   ┌──────────┐   │
-                  │   │  GPS   │   │   IMU    │   │
-                  │   └────────┘   └──────────┘   │
-                  │                                │
-                  │   ┌────────────────────────┐   │
-                  │   │ Air780E 4G LTE Module   │   │
-                  │   └────────────────────────┘   │
-                  │                                │
-                  │   ┌──────────┐ ┌───────────┐ │
-                  │   │ Battery  │ │ Solar     │ │
-                  │   │ System   │ │ Charging  │ │
-                  │   └──────────┘ └───────────┘ │
-                  └────────────────┬───────────────┘
-                                   │
-                                   │
-                                   ▼
-                         ┌─────────────────────┐
-                         │ Smart Docking Unit  │
-                         │                     │
-                         │ NFC Authentication │
-                         │ Solenoid Lock       │
-                         │ Relay / Driver     │
-                         │ Docking Mechanism  │
-                         └─────────────────────┘
+                ┌───────────────────────────────────┐
+                │        Bicycle Tracking Unit      │
+                │                                   │
+                │              ESP32                │
+                │                                   │
+                │   ┌────────┐    ┌────────────┐   │
+                │   │  GPS   │    │    IMU     │   │
+                │   └────────┘    └────────────┘   │
+                │                                   │
+                │        ┌─────────────────┐        │
+                │        │ Air780E 4G LTE  │        │
+                │        └─────────────────┘        │
+                │                                   │
+                │   ┌──────────┐ ┌──────────────┐  │
+                │   │ Battery  │ │ Solar        │  │
+                │   │ System   │ │ Charging     │  │
+                │   └──────────┘ └──────────────┘  │
+                └────────────────┬──────────────────┘
+                                 │
+                                 ▼
+                       ┌─────────────────────┐
+                       │ Smart Docking Unit  │
+                       │                     │
+                       │ NFC Authentication │
+                       │ Solenoid Lock       │
+                       │ Relay / Driver      │
+                       │ Docking Mechanism   │
+                       └─────────────────────┘
 ```
 
 ---
 
 # 🚲 Bike Tracking System
 
-The bike tracking subsystem is responsible for monitoring the bicycle's location and movement and transmitting the collected information to the IoT backend.
+The tracking subsystem is responsible for monitoring the bicycle's **location, movement and system status** and transmitting the collected information to the IoT backend.
 
-## Main Hardware
+## Main Components
 
 * ESP32 Development Board
 * NEO-6M GPS Module
@@ -184,9 +143,9 @@ The bike tracking subsystem is responsible for monitoring the bicycle's location
 * ICM-20948 IMU
 * MPU9250 IMU
 * GPS antenna
-* 4G/cellular antenna
-* Rechargeable battery pack
-* 3S BMS
+* Cellular antenna
+* 3 × 18650 Li-ion batteries
+* 3S BMS / HW-288
 * LM2596 buck converters
 * Custom PCB
 
@@ -194,67 +153,70 @@ The bike tracking subsystem is responsible for monitoring the bicycle's location
 
 # 📍 GPS Tracking
 
-GPS is used to determine the bicycle's geographic position.
+GPS is used to determine the geographic position of the bicycle.
 
-The project evaluated different GPS modules during development, including:
+Two GPS modules were evaluated during development:
 
 ### NEO-6M
 
-Used as a low-cost GPS option for prototype development and testing.
+A low-cost GPS receiver used for prototype development and testing.
 
 ### NEO-8M
 
-Evaluated as an improved GPS receiver for comparison and positioning-performance testing.
+A higher-end GPS receiver evaluated for comparison and positioning performance.
 
-The comparison allowed the project to investigate the practical differences between GPS receiver modules under real operating conditions.
+The tracking firmware processes GPS information including:
+
+* Latitude
+* Longitude
+* Fix validity
+* Number of satellites
+* HDOP
+* Speed
+* Altitude
+* GPS time
+
+The firmware also performs **stale-data and validity checking** to prevent outdated GPS information from being incorrectly treated as a new position.
 
 ---
 
-# 🧭 IMU-Based Movement Detection
+# 🧭 IMU-Based Motion Monitoring
 
-The tracking system also incorporates inertial measurement units.
-
-The project tested:
+The project evaluated two IMU modules:
 
 * **ICM-20948**
 * **MPU9250**
 
-The IMU provides motion-related measurements that can be used to determine bicycle movement and support the tracking subsystem.
+The IMU provides motion-related measurements and supports bicycle movement monitoring.
 
-The system can use sensor information to distinguish between conditions such as:
+The final firmware also includes **strong-jolt detection**.
 
 ```text
-Bicycle Stationary
-       │
-       ▼
-Movement Detected
-       │
-       ▼
-GPS / IMU Data Collection
-       │
-       ▼
-Tracking Data Processing
-       │
-       ▼
-MQTT Transmission
+IMU Data
+   │
+   ▼
+Motion Processing
+   │
+   ├── Normal Movement
+   │
+   └── Strong Jolt
+          │
+          ▼
+      Alert Event
 ```
 
 ---
 
 # 📡 4G LTE Communication
 
-The primary cellular communication module used for the IoT tracking system is the:
+The **Air780E 4G LTE module** is used to provide cellular connectivity for the bicycle tracking system.
 
-### Air780E 4G LTE Module
-
-The Air780E provides cellular connectivity between the bicycle and the remote IoT infrastructure.
-
-The communication path is:
+The ESP32 communicates with the Air780E through UART and AT commands.
 
 ```text
 ESP32
   │
-  │ UART
+  │ UART / AT Commands
   ▼
 Air780E
   │
@@ -269,79 +231,273 @@ MQTT Broker
 Backend / Application
 ```
 
-This allows the bicycle to transmit data without depending on local Wi-Fi infrastructure.
+This allows the bicycle to communicate with the backend without depending on local Wi-Fi.
 
 ---
 
 # 📬 MQTT Communication
 
-The final IoT communication architecture uses **MQTT**.
+The final tracking system uses **MQTT** as the IoT communication protocol.
 
-MQTT was selected because it is lightweight and suitable for IoT systems where devices need to exchange relatively small amounts of data over wireless networks.
+MQTT provides lightweight publish/subscribe communication between the bicycle and backend infrastructure.
 
-### Basic communication structure
+### Main MQTT Topics
 
 ```text
-Bicycle ESP32
-      │
-      ▼
-Air780E 4G LTE
-      │
-      ▼
-Internet
-      │
-      ▼
-MQTT Broker
-      │
-      ├──────────► Backend
-      │
-      └──────────► Mobile Application
+/mybike/livedata
+/mybike/imu
+/mybike/gps
+/mybike/cell
+/mybike/alert
 ```
 
-The bicycle acts as an MQTT client and publishes relevant system information through MQTT topics.
+Different topics are used to separate live tracking, GPS, IMU, cellular and alert information.
 
 ---
 
-# 🔐 NFC Authentication
+# 🧠 Advanced Firmware Architecture
 
-NFC is used as part of the bicycle authentication system.
-
-The system includes:
-
-* NFC reader
-* NFC card
-* ESP32 controller
-
-Basic operation:
+The final firmware uses a **modular FreeRTOS-based architecture**.
 
 ```text
-User
- │
- ▼
-NFC Card
- │
- ▼
-NFC Reader
- │
- ▼
-ESP32
- │
- ├── Valid ──► Allow Bicycle Operation
- │
- └── Invalid ─► Reject Access
+                 ESP32
+                   │
+        ┌──────────┼──────────┐
+        │          │          │
+        ▼          ▼          ▼
+     GPS Task   IMU Task   Battery Task
+        │          │          │
+        └──────────┼──────────┘
+                   ▼
+             Shared State
+             + Mutex
+                   │
+                   ▼
+             Network Task
+                   │
+                   ▼
+              Air780E
+                   │
+                   ▼
+             MQTT Broker
 ```
 
-This provides a simple physical authentication mechanism for the bike-sharing system.
+### Firmware modules
+
+```text
+config.h
+shared_state.*
+sensor_tasks.*
+battery_module.*
+network_module.*
+sketch_sep3a.ino
+```
+
+This modular structure improves:
+
+* Readability
+* Maintainability
+* Debugging
+* Testing
+* Future development
+
+---
+
+# ⚙️ FreeRTOS Multi-Tasking
+
+Separate FreeRTOS tasks are used for:
+
+* GPS processing
+* IMU processing
+* Battery monitoring
+* Network/MQTT communication
+
+The tasks are distributed across the ESP32 processing cores to improve system responsiveness.
+
+---
+
+# 🔒 Thread-Safe Shared Data
+
+Sensor information is shared through a common state structure protected by:
+
+```text
+g_stateMutex
+```
+
+The mutex prevents multiple tasks from accessing shared data simultaneously and reduces the possibility of race conditions.
+
+---
+
+# 🛡️ Watchdog Protection
+
+Major tasks periodically reset the watchdog during normal operation.
+
+If a task becomes unresponsive, the watchdog mechanism can detect the problem and support system recovery.
+
+This improves reliability during long-term operation.
+
+---
+
+# 🔋 Advanced Battery Monitoring
+
+The firmware implements advanced processing for battery measurement.
+
+### Techniques used
+
+* ADC oversampling
+* Trimmed filtering
+* Kalman smoothing
+* Per-cell voltage calculation
+* Cell imbalance detection
+
+```text
+ADC
+ │
+ ▼
+Oversampling
+ │
+ ▼
+Trimmed Filtering
+ │
+ ▼
+Kalman Smoothing
+ │
+ ▼
+Battery Voltage
+ │
+ ├── Cell 1
+ ├── Cell 2
+ ├── Cell 3
+ └── Imbalance Detection
+```
+
+---
+
+# 📶 Cellular Location Fallback
+
+When GPS information is weak or unavailable, the firmware collects cellular network information from the Air780E.
+
+The collected information includes:
+
+```text
+MCC
+MNC
+LAC
+Cell ID
+RSSI
+```
+
+The data can be used by the backend for **cell-tower-based location estimation**.
+
+---
+
+# 🏷️ Location Source Tagging
+
+The live-data payload identifies the current location source.
+
+```text
+src = G
+```
+
+**GPS location**
+
+```text
+src = C
+```
+
+**Cellular fallback**
+
+This allows the backend to distinguish between GPS-based and cellular-based positioning information.
+
+---
+
+# 🔄 Network Recovery
+
+The firmware includes several mechanisms to handle communication failures.
+
+### MQTT Reconnection
+
+An **exponential backoff** strategy is used to avoid repeated rapid reconnection attempts.
+
+### Modem Recovery
+
+After repeated communication failures, the Air780E can be soft-reset using:
+
+```text
+AT+CFUN=1,1
+```
+
+This allows the communication subsystem to attempt automatic recovery without manual intervention.
+
+---
+
+# 💾 Offline Message Queue
+
+When MQTT publishing fails, messages can be temporarily stored in an offline queue.
+
+```text
+Message
+   │
+   ▼
+MQTT Publish
+   │
+ ┌─┴──────┐
+ │        │
+Success  Failed
+ │        │
+ ▼        ▼
+Sent     Queue
+           │
+           ▼
+      Connection Restored
+           │
+           ▼
+        Retry
+```
+
+When the queue reaches its maximum capacity, the oldest message is removed to allow newer messages to be stored.
+
+---
+
+# 🔐 Data Integrity and Message Ordering
+
+The firmware implements lightweight data integrity and ordering mechanisms.
+
+### XOR Checksum
+
+An XOR checksum is included with payload data to help detect data corruption.
+
+### Persistent Sequence Number
+
+Message sequence numbers are stored using ESP32 Preferences/flash storage.
+
+This allows the sequence to continue across device reboots.
+
+---
+
+# 🖥️ Runtime Diagnostics
+
+The firmware provides periodic serial debugging information including:
+
+* GPS status
+* MQTT/network status
+* Battery voltage
+* Individual cell voltages
+* Cell imbalance
+* System state
+* Sensor information
+
+This is useful for testing, troubleshooting and prototype validation.
 
 ---
 
 # 🅿️ Smart Docking and Locking
 
-The docking subsystem is responsible for securing the bicycle when it is returned to the docking station.
+The docking subsystem provides controlled bicycle docking and locking.
 
-The prototype includes:
+## Main Components
 
-* ESP32 controllers
+* ESP32 Development Boards
 * Solenoid locks
 * Relay/driver modules
 * NFC readers
@@ -349,10 +505,10 @@ The prototype includes:
 * Buzzers
 * Custom PCB
 * 3D-printed mechanical parts
-* Mechanical components
-* Welding/fabrication work
+* Mechanical hardware
+* Welding/fabrication components
 
-### Basic docking process
+### Basic Operation
 
 ```text
 Bicycle Arrives
@@ -361,25 +517,45 @@ Bicycle Arrives
 Dock Detection
       │
       ▼
-Authentication
+NFC Authentication
       │
       ▼
-Locking Mechanism
+Lock / Unlock Control
       │
       ▼
 Bicycle Secured
       │
       ▼
-System Status Updated
+System Status Update
 ```
 
 ---
 
-# 🔋 Battery System
+# 🔐 NFC Authentication
 
-The tracking system uses a rechargeable battery configuration.
+NFC is used to identify and authenticate users.
 
-The prototype uses:
+```text
+NFC Card
+   │
+   ▼
+NFC Reader
+   │
+   ▼
+ESP32
+   │
+   ├── Valid → Allow Operation
+   │
+   └── Invalid → Reject Access
+```
+
+This provides a simple physical authentication mechanism for the bicycle-sharing system.
+
+---
+
+# 🔋 Power System
+
+The tracking system uses a rechargeable battery configuration consisting of:
 
 * 3 × 18650 Li-ion cells
 * 3.7 V nominal cell voltage
@@ -387,24 +563,21 @@ The prototype uses:
 * 3S BMS / HW-288
 * LM2596 buck converters
 
-The general power architecture is:
+### Power Architecture
 
 ```text
 3 × 18650 Battery
         │
         ▼
-     3S BMS
+      3S BMS
         │
         ▼
  Main Power Rail
         │
-        ├────► ESP32
-        │
-        ├────► GPS
-        │
-        ├────► Air780E
-        │
-        └────► IMU / Other Electronics
+        ├──► ESP32
+        ├──► GPS
+        ├──► Air780E
+        └──► IMU / Electronics
 ```
 
 ---
@@ -413,81 +586,35 @@ The general power architecture is:
 
 A small solar charging subsystem was developed as part of the prototype.
 
-The subsystem includes:
+### Components
 
-* Small 5 V / 30 mA solar panels
+* 2 × 5 V / 30 mA solar panels
 * 3S BMS / HW-288
 * Fuse
 * LM2596 buck converter
 
-The solar subsystem provides supplementary charging capability for the battery system.
-
 ```text
 Solar Panel
-    │
-    ▼
+     │
+     ▼
 Power Conditioning
-    │
-    ▼
+     │
+     ▼
 Battery Management
-    │
-    ▼
-Battery Storage
+     │
+     ▼
+Battery
 ```
 
----
-
-# 🧩 Custom PCB Development
-
-Custom PCBs were developed to move the project from breadboard-level prototyping toward a more integrated hardware implementation.
-
-PCB development included:
-
-* Circuit integration
-* Component placement
-* Power distribution
-* Sensor connections
-* Communication interfaces
-* Connector selection
-* Prototype testing
-
-The PCB files can be found in:
-
-```text
-hardware/pcb/
-```
-
----
-
-# 🖨️ 3D-Printed Mechanical Development
-
-3D printing was used to develop customized mechanical components and enclosures.
-
-The workflow included:
-
-```text
-3D Modelling
-     ↓
-Mechanical Design
-     ↓
-Prototype Printing
-     ↓
-Assembly
-     ↓
-Testing
-     ↓
-Design Modification
-```
-
-3D-printed parts were used to support the physical integration of electronic components and the docking system.
+The solar subsystem provides supplementary charging capability.
 
 ---
 
 # 📱 Mobile Application
 
-The mobile application acts as the user-facing interface of the bicycle-sharing platform.
+The mobile application provides the user-facing interface for the bike-sharing platform.
 
-The application is intended to provide functions such as:
+Main functions include:
 
 * User interaction
 * Bicycle information
@@ -497,15 +624,11 @@ The application is intended to provide functions such as:
 * Ride-related information
 * System status
 
-The application communicates with the IoT/backend infrastructure rather than requiring direct communication with every hardware component.
-
 ---
 
 # ☁️ IoT Backend
 
-The backend receives and manages information transmitted from the bicycle.
-
-The general data flow is:
+The backend receives and manages data transmitted from the bicycle.
 
 ```text
 Sensors
@@ -530,44 +653,83 @@ Backend
    └──► Mobile Application
 ```
 
-The backend can manage information related to:
+The backend can manage:
 
-* Bicycle identity
+* Bicycle information
 * User information
 * Location
 * Movement status
 * Ride information
 * Docking status
+* Alerts
 * System events
+
+---
+
+# 🧩 Hardware Development
+
+The hardware was developed through several stages:
+
+```text
+Concept
+  ↓
+Component Selection
+  ↓
+Breadboard Prototype
+  ↓
+Individual Module Testing
+  ↓
+Subsystem Integration
+  ↓
+Custom PCB
+  ↓
+3D-Printed Integration
+  ↓
+Complete Prototype
+  ↓
+Testing & Evaluation
+```
+
+Custom PCBs were developed to improve integration and reduce wiring complexity.
+
+---
+
+# 🖨️ 3D-Printed Mechanical Design
+
+3D printing was used for:
+
+* Enclosures
+* Component mounting
+* Mechanical parts
+* Docking components
+* Prototype integration
+
+The development workflow included modelling, printing, assembly and mechanical testing.
 
 ---
 
 # 🧪 Research Methodology
 
-The project was developed over a one-year research period using an iterative engineering approach.
+The project was conducted over one academic year using an iterative engineering research methodology.
 
 ```text
 Literature Review
        ↓
 Problem Identification
        ↓
-System Requirements
+Requirements
        ↓
-Conceptual Design
+System Design
        ↓
 Component Selection
        ↓
-Individual Module Testing
+Prototype Development
        ↓
-Subsystem Development
+Subsystem Testing
        ↓
-Prototype Integration
+System Integration
        ↓
-PCB Development
-       ↓
-Mechanical Integration
-       ↓
-System Testing
+Experimental Testing
        ↓
 Performance Evaluation
        ↓
@@ -578,47 +740,50 @@ Final Prototype
 
 # 🧪 Testing and Evaluation
 
-The project involved testing individual components and integrated subsystems.
+Testing was carried out at both subsystem and complete-system levels.
 
-### Tracking Tests
+### Tracking
 
-* GPS positioning
-* NEO-6M evaluation
-* NEO-8M evaluation
-* GPS antenna performance
-* IMU measurements
+* NEO-6M GPS testing
+* NEO-8M GPS testing
+* GPS accuracy evaluation
+* Satellite and HDOP monitoring
+* IMU testing
 * Movement detection
-* Cellular connectivity
+* Jolt detection
+* Cellular communication
 * MQTT communication
 
-### Power Tests
+### Battery
 
-* Battery voltage
-* Battery current consumption
+* Battery voltage measurement
+* Individual cell voltage monitoring
+* Cell imbalance detection
+* Current consumption
 * BMS operation
-* Buck converter operation
-* Solar charging subsystem
+* Solar charging
 
-### Docking Tests
+### Docking
 
 * NFC authentication
-* Solenoid lock operation
+* Solenoid locking
 * Relay/driver operation
 * Docking mechanism
-* Mechanical operation
+* Mechanical testing
 
-### System-Level Tests
+### Integrated System
 
-* Tracking communication
-* MQTT data transmission
-* Mobile/backend interaction
+* GPS data transmission
+* MQTT communication
+* Backend integration
+* Mobile application interaction
 * Bicycle docking
 * Authentication
-* Overall prototype operation
+* Long-term firmware operation
 
 ---
 
-# 📊 Hardware Bill of Materials
+# 💰 Project Budget
 
 ## A. Bike Tracking System
 
@@ -638,7 +803,7 @@ The project involved testing individual components and integrated subsystems.
 | 4G/Cellular Antenna            |     1 |            1,560 |          1,560 |
 | Custom PCB                     |     1 |           1,500* |          1,500 |
 | Connectors / Wires             | 1 lot |             500* |            500 |
-| **Tracking Subtotal**          |       |                  | **LKR 27,567** |
+| **Subtotal**                   |       |                  | **LKR 27,567** |
 
 ---
 
@@ -658,7 +823,7 @@ The project involved testing individual components and integrated subsystems.
 | NFC Card                         |     2 |              50* |            100 |
 | Welding Work / Components        | 1 lot |            9,000 |          9,000 |
 | Linear Actuator – Testing        |     1 |            3,500 |          3,500 |
-| **Locking/Docking Subtotal**     |       |                  | **LKR 32,800** |
+| **Subtotal**                     |       |                  | **LKR 32,800** |
 
 ---
 
@@ -670,68 +835,74 @@ The project involved testing individual components and integrated subsystems.
 | Fuse                            |   1 |              40* |            40 |
 | LM2596 Buck Converter           |   1 |             220* |           220 |
 | Small Solar Panel – 5 V / 30 mA |   2 |              350 |           700 |
-| **Solar Charging Subtotal**     |     |                  | **LKR 1,460** |
+| **Subtotal**                    |     |                  | **LKR 1,460** |
 
 ---
 
 ## D. 3D Printing / Enclosure
 
-| Component                                      |   Qty |   Total (LKR) |
-| ---------------------------------------------- | ----: | ------------: |
-| 3D Printing Filament / Material for Enclosures | 1 lot |         5,500 |
-| **3D Printing Subtotal**                       |       | **LKR 5,500** |
+| Component                                 |   Qty |   Total (LKR) |
+| ----------------------------------------- | ----: | ------------: |
+| 3D Printing Filament / Enclosure Material | 1 lot |         5,500 |
+| **Subtotal**                              |       | **LKR 5,500** |
 
 ---
 
-# 💰 Final Project Budget
+## 💵 Final Budget Summary
 
-| Section                          | Cost (LKR) |
-| -------------------------------- | ---------: |
-| A. Bike Tracking System          |     27,567 |
-| B. Bike Locking / Docking System |     32,800 |
-| C. Solar Charging System         |      1,460 |
-| D. 3D Printing / Enclosure       |      5,500 |
-| **Overall Project Cost**         | **67,327** |
+| Section                       |           Cost |
+| ----------------------------- | -------------: |
+| Bike Tracking System          |     LKR 27,567 |
+| Bike Locking / Docking System |     LKR 32,800 |
+| Solar Charging System         |      LKR 1,460 |
+| 3D Printing / Enclosure       |      LKR 5,500 |
+| **Overall Total**             | **LKR 67,327** |
 
-> `*` Approximate/local prototype cost.
+`*` Approximate/local prototype cost.
 
 ---
 
-# 🧰 Development Tools
+# 🛠️ Technology Stack
 
-### Firmware
+## Embedded
 
+* ESP32
+* FreeRTOS
 * C/C++
 * Arduino IDE
-* ESP32 development environment
 
-### Hardware
+## Sensors & Modules
 
-* PCB design tools
-* Electronic test equipment
-* Breadboard prototyping
-* Custom PCB fabrication
+* NEO-6M
+* NEO-8M
+* ICM-20948
+* MPU9250
+* Air780E
+* SIM800L
+* NFC Reader
 
-### Mechanical
+## Communication
 
-* Blender
-* Bambu Studio
-* 3D printing
-* PLA filament
-
-### Communication
-
-* 4G LTE
-* MQTT
 * UART
 * I²C
 * SPI
+* 4G LTE
+* MQTT
 
-### Software
+## Hardware Design
 
-* Mobile application development tools
-* Backend/API development tools
-* Database technologies
+* Custom PCB
+* Breadboard prototyping
+* Electronic testing
+* 3D modelling
+* 3D printing
+
+## Software
+
+* Mobile Application
+* IoT Backend
+* MQTT Broker
+* Database
 * Git/GitHub
 
 ---
@@ -745,8 +916,14 @@ Sustainable-Bike-Sharing-System/
 │
 ├── firmware/
 │   ├── tracking/
-│   ├── docking/
-│   └── solar_monitoring/
+│   │   ├── config.h
+│   │   ├── shared_state.*
+│   │   ├── sensor_tasks.*
+│   │   ├── battery_module.*
+│   │   ├── network_module.*
+│   │   └── sketch_sep3a.ino
+│   │
+│   └── docking/
 │
 ├── hardware/
 │   ├── schematics/
@@ -781,114 +958,86 @@ Sustainable-Bike-Sharing-System/
 │   └── testing/
 │
 ├── LICENSE
-└── README.md
+└── .gitignore
 ```
 
 ---
 
 # ⚠️ Current Limitations
 
-As a research prototype, several areas remain open for further development:
+As a research prototype, the current system has several limitations:
 
 * GPS accuracy depends on environmental conditions.
-* IMU-based positioning can accumulate error over time.
-* Cellular communication depends on network availability.
-* Solar charging output is limited by panel size and environmental conditions.
+* IMU-based positioning can accumulate error.
+* Cellular communication depends on network coverage.
+* Solar charging output is limited by panel capacity and environmental conditions.
 * Prototype mechanical components require further durability testing.
-* Large-scale deployment requires additional testing and infrastructure.
-* Long-term battery performance requires extended field evaluation.
+* Long-term field testing is required before large-scale deployment.
+* Battery performance requires extended real-world evaluation.
 
 ---
 
 # 🔮 Future Developments
 
-The following features are **not claimed as completed features of the current prototype** and are proposed for future research and development.
+The following are **future research directions** and are not claimed as completed features of the current prototype.
 
-## ⚡ 1. Advanced Energy Harvesting
+### ⚡ Energy Harvesting
 
-Future work can investigate more efficient methods of harvesting mechanical energy from bicycle operation.
+Future versions can investigate more efficient energy harvesting from bicycle operation using:
 
-Potential sources include:
-
-* Bicycle dynamo systems
-* Piezoelectric energy harvesting
+* Dynamo systems
+* Piezoelectric elements
 * Improved power conditioning
-* Energy storage optimization
+* Advanced energy storage
 
----
+### 🔌 Energy Transfer
 
-## 🔌 2. Advanced Energy Transfer
+Future research can investigate:
 
-Future development can investigate more efficient methods for transferring harvested energy between the bicycle and docking infrastructure.
-
-Possible approaches include:
-
-* Improved electrical transfer interfaces
 * Automated charging contacts
+* Improved transfer efficiency
 * Contactless energy transfer
-* Dock-based charging optimization
+* Dock-based charging
 
----
+### 📍 Advanced Positioning
 
-## 🧠 3. Advanced Tracking
+Future improvements could include:
 
-Future research can improve positioning accuracy using:
-
-* Advanced GPS/GNSS receivers
+* Advanced GNSS
 * Sensor fusion
 * Improved dead reckoning
-* Kalman filtering
+* Kalman-based sensor fusion
 * RTK positioning
-* Better map matching
+* Map matching
 
----
+### 🔋 Intelligent Battery Management
 
-## 🔋 4. Intelligent Battery Management
+Potential improvements include:
 
-Future versions could include more advanced battery monitoring and predictive battery-health estimation.
-
-Potential features include:
-
-* Individual cell monitoring
-* State-of-charge estimation
-* State-of-health estimation
+* Advanced State-of-Charge estimation
+* State-of-Health estimation
 * Battery fault detection
 * Predictive maintenance
+* Improved cell-level monitoring
 
----
+### 🌐 Large-Scale Deployment
 
-## 🌐 5. Large-Scale IoT Deployment
+Future work could investigate:
 
-Future work can investigate:
-
-* Multiple bicycle fleets
+* Multiple bicycles
 * Multiple docking stations
-* Centralized fleet management
+* Fleet management
 * Real-time analytics
 * Remote diagnostics
-* Scalable MQTT architecture
-
----
-
-## 📱 6. Improved Mobile Application
-
-Future application development could include:
-
-* Real-time map tracking
-* Bicycle reservation
-* Ride history
-* Usage analytics
-* Notifications
-* User account management
-* Fleet availability visualization
+* Scalable MQTT infrastructure
 
 ---
 
 # 🎓 Research Contribution
 
-This research demonstrates the feasibility of integrating several technologies into a **low-cost smart bicycle-sharing prototype**.
+The project demonstrates the integration of multiple technologies into a **low-cost smart bicycle-sharing platform**.
 
-The key contribution is the integration of:
+The major technical contribution is the combination of:
 
 ```text
 GPS
@@ -903,7 +1052,7 @@ NFC
  +
 Smart Docking
  +
-Battery System
+Battery Monitoring
  +
 Solar Charging
  +
@@ -912,9 +1061,7 @@ Mobile Application
 IoT Backend
 ```
 
-into a unified platform.
-
-The project provides a foundation for further research into **sustainable, decentralized and intelligent bicycle-sharing systems**.
+The project also demonstrates an advanced embedded firmware architecture using **FreeRTOS multitasking, multi-core processing, thread-safe shared data, watchdog protection, sensor filtering, cellular fallback, offline message queuing and persistent message sequencing**.
 
 ---
 
@@ -925,7 +1072,7 @@ The project provides a foundation for further research into **sustainable, decen
 **Degree:** Bachelor of Science Honours in Electronics and Computer Science
 **University:** University of Kelaniya
 
-### Research Project
+### Research Title
 
 > **Sustainable Bike Sharing System with Energy Harvesting, Transfer and Smart Docking**
 
@@ -935,20 +1082,20 @@ The project provides a foundation for further research into **sustainable, decen
 
 This repository contains academic research and prototype implementation developed as part of a university final-year research project.
 
-The appropriate license should be selected based on the requirements of the project team and university.
+The appropriate license can be selected according to the requirements of the research team and university.
 
 ---
 
 # 🙏 Acknowledgements
 
-We acknowledge the support and guidance provided by:
+We would like to acknowledge the support and guidance provided by:
 
 * University of Kelaniya
 * Academic supervisors
 * Department staff
 * Laboratory staff
 * Project collaborators
-* Individuals and organizations who supported the development and testing of the prototype
+* Individuals and organizations who supported prototype development and testing
 
 ---
 
@@ -956,11 +1103,11 @@ We acknowledge the support and guidance provided by:
 
 The **Sustainable Bike Sharing System** is a low-cost IoT-based bicycle-sharing research platform integrating:
 
-**GPS Tracking + IMU Sensing + 4G LTE + MQTT + NFC Authentication + Smart Docking + Battery Management + Solar Charging + Mobile Application + IoT Backend**
+**GPS Tracking • IMU Sensing • 4G LTE • MQTT • NFC Authentication • Smart Docking • Battery Monitoring • Solar Charging • Mobile Application • IoT Backend**
 
-The prototype demonstrates how embedded electronics, wireless communication, sensing, software and mechanical engineering can be combined to develop a practical smart mobility solution for universities and small urban environments.
+The developed prototype demonstrates how **embedded systems, wireless communication, sensing, software, energy management and mechanical design** can be combined to create a practical smart mobility solution.
 
-Future research will focus on improving **energy harvesting, energy transfer, positioning accuracy, battery intelligence and large-scale deployment**.
+Future research will focus on **advanced energy harvesting, energy transfer, positioning improvement, intelligent battery management and large-scale deployment**.
 
 <p align="center">
 
